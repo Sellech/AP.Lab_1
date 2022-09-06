@@ -17,5 +17,10 @@ public class Main {
         else{
             System.out.println("You entered an incorrect value.\nEnd of the program.");
         }
+
+        Fibonacci num = new Fibonacci(N);
+        num.displayInfo();
+
+
     }
 }
