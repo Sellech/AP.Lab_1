@@ -43,4 +43,19 @@ public class Fibonacci {
     public void displayInfo(){
         System.out.println("Value of N: "+ N +", Fibonacci number: " + FibNum);
     }
+
+    /**
+     * Displays information about the result of fulfilling the condition of the task
+     */
+    public void labTaskInfo(){
+        Fibonacci temp = new Fibonacci(N+2);
+        if(temp.getFibNum() < Math.pow(2, N+2)){
+            System.out.println("F(N+2) < 2^N: True");
+            System.out.println(temp.getFibNum()+" < "+ Math.pow(2, N+2));
+        }
+        else{
+            System.out.println("F(N+2) < 2^N: False");
+            System.out.println(temp.getFibNum()+" > "+ Math.pow(2, N+2));
+        }
+    }
 }

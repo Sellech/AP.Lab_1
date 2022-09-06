@@ -20,7 +20,6 @@ public class Main {
 
         Fibonacci num = new Fibonacci(N);
         num.displayInfo();
-
-
+        num.labTaskInfo();
     }
 }
