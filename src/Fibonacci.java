@@ -24,6 +24,7 @@ public class Fibonacci {
     }
 
     /**
+     * Returns ordinal number of the Fibonacci number(N)
      * @return ordinal number of the Fibonacci number(N)
      */
     public int getN() {
@@ -31,6 +32,7 @@ public class Fibonacci {
     }
 
     /**
+     * Returns the value of the Fibonacci number at position N
      * @return the value of the Fibonacci number at position N
      */
     public long getFibNum() {

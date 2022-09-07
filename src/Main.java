@@ -1,5 +1,16 @@
 import java.util.Scanner;
+
+/**
+ * The Main class is used for executing the 1st laboratory work on AP
+ * @author Chepiuk Yaroslav
+ * @version 1.0 2022-09-06
+ */
 public class Main {
+
+    /**
+     * This is the main() method, which is the entry point for executing a Java program
+     * @param args contains the supplied command-line arguments
+     */
     public static void main(String[] args){
         int N = 0;
 
